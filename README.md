@@ -78,7 +78,7 @@ Import the sass/scss file with html tag
 
 
 
-The Django block `{% sass_src "" %}` is trying to get the main.sass file from `STATICFILES_DIRS`as the path and generate a `*.css` and `*.css.map` into the `SASS_PROCESSOR_ROOT`
+The Django block `{% sass_src "<name>.scss" %}` is trying to get the `<name>.scss` file from `STATICFILES_DIRS` directories and generate a `<name>.css` and `<name>.css.map` into the `SASS_PROCESSOR_ROOT`
 
 Reference: https://github.com/jrief/django-sass-processor/blob/master/sass_processor/processor.py
 
