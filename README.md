@@ -1,6 +1,6 @@
 ## Django 2.x sass/scss processor tutorial
 
-This repo is using Python 3.6.4 with Django 2.0.5
+This repo is using Python 3.6.4 with Django 2.0.5. No license and feel free to make it as your starter.
 
 ### Install the requirement
 
