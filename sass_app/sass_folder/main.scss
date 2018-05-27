@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+h1{
+    border: 1px red;
+    color: white;
+}
+.container {
+  > ul {
+    list-style: none;
+    li {
+      color: orange;
+      &:last-child{
+        color: blue;
+      }
+      &:after{
+        clear: both;
+      }
+    }
+  }
+}
