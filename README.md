@@ -1,4 +1,4 @@
-## Django 2.x sass/scss processor tutorial
+## Django sass processor tutorial (Django 2.x)
 
 This repo is using Python 3.6.4 with Django 2.0.5. No license and feel free to make it as your starter.
 
@@ -70,11 +70,11 @@ add the views to the page
 
 Load the sass_tags by
 
-        {% load sass_tags %}
+    {% load sass_tags %}
 
 Import the sass/scss file with html tag
 
-        <link rel="stylesheet" href="{% sass_src 'main.scss' %}" />
+    <link rel="stylesheet" href="{% sass_src 'main.scss' %}" />
 
 
 
