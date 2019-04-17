@@ -1,6 +1,6 @@
 ## Django sass processor tutorial (Django 2.x)
 
-This repo is using Python 3.7.2 with Django 2.1.5. No license and feel free to make it as your starter.
+This repo is using Python 3.7.2 with Django 2.2. No license and feel free to make it as your starter.
 
 ### Install the requirement
 
@@ -10,7 +10,7 @@ By requirement.txt:
 
 By pip
 
-`python -m pip install django==2.1.5 libsass==0.17.0 django_compressor==2.2 django-sass-processor==0.7.2`
+`python -m pip install django==2.2 libsass==0.17.0 django_compressor==2.2 django-sass-processor==0.7.2`
 
 ### Run the Web App
 
